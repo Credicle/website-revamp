@@ -237,6 +237,12 @@ body {
   line-height: 20px;
   color: #333;
 }
+
+/* img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+} */
 html.w-mod-touch * {
   background-attachment: scroll !important;
 }
@@ -367,12 +373,12 @@ html[data-w-dynpage] [data-w-cloak] {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-.w-webflow-badge > img {
+/* .w-webflow-badge > img {
   display: inline-block !important;
   visibility: visible !important;
   opacity: 1 !important;
   vertical-align: middle !important;
-}
+} */
 h1,
 h2,
 h3,
@@ -953,9 +959,9 @@ textarea.w-select {
   width: auto;
   display: inline;
 }
-.w-widget-map img {
+/* .w-widget-map img {
   max-width: inherit;
-}
+} */
 .w-widget-map .gm-style-iw {
   text-align: center;
 }
@@ -1407,11 +1413,11 @@ textarea.w-select {
 .w-lightbox-group .w-lightbox-figure {
   cursor: pointer;
 }
-.w-lightbox-img {
+/* .w-lightbox-img {
   width: auto;
   height: auto;
   max-width: none;
-}
+} */
 .w-lightbox-image {
   display: block;
   float: none;
@@ -2063,10 +2069,10 @@ ul {
 li {
   margin-bottom: 10px;
 }
-
+/* 
 img {
   display: block;
-}
+} */
 
 label {
   margin-bottom: 10px;

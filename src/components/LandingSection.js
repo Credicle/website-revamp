@@ -1,7 +1,6 @@
 import React from "react";
 import "../CSS/styles.css"
 
-
 function LandingSection() {
   return (
     <section className="landing-section">

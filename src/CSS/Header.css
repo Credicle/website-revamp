@@ -1,15 +1,52 @@
 .header1 {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
     padding: 20px 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+  
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
   }
   
-  .logo img {
-    height: 50px;
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: fixed; /* Changed from absolute */
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    width: 250px; /* Added fixed width for the sidebar */
+    height: 100%; /* Make it cover the full height */
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Added z-index to position it above other elements */
   }
+  
+  .nav-links.open a {
+    margin-bottom: 1rem;
+  }
+  
+  .header-logo.hide-logo { /* Added style to hide the logo */
+    display: none;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
   
   .nav-links {
     display: flex;
@@ -20,8 +57,12 @@
     position: relative;
     cursor: pointer;
   }
+  .header-logo {
+    height: 60px; /* Adjust the size of the logo as needed */
+  }
+
   
-  .nav-links a:hover::after {
+.nav-links a:hover::after {
     content: '';
     display: block;
     width: 0;
@@ -51,4 +92,3 @@
   .nav-links a:hover {
     color: #0077ff;
   }
-  
