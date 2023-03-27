@@ -7,7 +7,7 @@ function LandingSection() {
       <div className="home-section-wrap">
         <div className="title-text">
           <h1 className="section-heading header">
-            Credicle, allowing FinTech companies to understand their customers through Web3 wallet quality metrics.
+            Credicle, allowing FinTech companies to understand their customers through AI driven Web3 wallet quality metrics.
           </h1>
         </div>
         <a

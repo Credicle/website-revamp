@@ -6,11 +6,12 @@ function Demo() {
   return (
     <div className = "Demo-Section">
         <h2 className = "Demo-Header">Demo</h2>
-        <ArrowDiagram />
+
+        <ArrowDiagram className = "arrowDiagram"/>
       <div className="video-container">
         <iframe
           className="demo-video"
-          src="https://www.youtube.com/embed/IYnh4jFfEAg"
+          src="https://www.youtube.com/embed/1pmyrh_vWbA"
           title="YouTube video"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

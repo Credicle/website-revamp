@@ -1,6 +1,7 @@
 import React from "react";
 import "../CSS/ArrowDiagram.css";
 import { FaUser, FaRegBuilding, FaArrowRight } from "react-icons/fa";
+import logo from "../assets/logog_w_name.png";
 
 function ArrowDiagram() {
   return (
@@ -16,7 +17,7 @@ function ArrowDiagram() {
       </div>
       <FaArrowRight className="arrow" />
       <div className="step">
-        <FaRegBuilding className="step-icon" />
+        <img src={logo} alt="Logo" className="header-logo" />
         <h3>Credicle</h3>
         <ul className = "cardText">
           <li>Computes wallet metrics frame and Credicle score</li>
